@@ -290,13 +290,9 @@
   @media screen and (max-width: 576px) {
       #scl, 
       .nav-link,
-      .nav-btn{
+      .nav-btn,
+      .exmpl1{
           display: none;
       }
       
-      .border-bottom{
-          width: 576px;
-          height: 10px;
-          background-color: orange;
-      }
   }
