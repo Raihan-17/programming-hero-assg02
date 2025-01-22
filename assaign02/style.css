@@ -291,8 +291,46 @@
       #scl, 
       .nav-link,
       .nav-btn,
-      .exmpl1{
+      .exmpl1,
+      .np-btn1{
           display: none;
       }
       
+      .kid,
+      #card,
+      #footer{
+        display: flex;
+        flex-direction: column;
+      } 
+      #kid-img,
+      #kid-paragraph{
+        width: 561px;
+        margin-left: -30px;
+      }
+
+      card{
+        width: 561px;
+        margin-left: -30px;
+      }
+      
+  .kid,
+  .section1{
+    width:100%;
+    height: auto;
+    text-align: center;  
+  }
+  .head1{
+    margin-right: -300px;
+    width: 561px;
+    margin-top: 80px;
+  }
+  #card1, #card2 ,#card3{
+    margin-right: -300px;
+    width: 561px;
+  }
+  .sect-again{
+   margin-left: -100px;
+    width: px;
+  }
+
   }
