@@ -3,6 +3,7 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+
   }
   
   .nav{
@@ -19,10 +20,10 @@
   #scl{margin-left: 0.5rem;}
   
   .nav-link1{
-     text-decoration: none;
-     margin-right: 1.25rem;
-     font-weight: 700;
-     color: rgb(254, 163, 1);
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: .5rem;
+    color: rgb(254, 163, 1));
   }
   .nav-link2{
       text-decoration: none;
@@ -61,18 +62,18 @@
       margin-left: 1rem;
   }
   .empow{
-      font-size: 2.5rem;   
-  }
-  #kid-img{
-      width: 25rem;
-  }
-  #kid-hclr{
-       color: hsla(38,99%,51%,1);
-  }
-  
-  #kid-hclr2{
-      color: rgb(1, 172, 253); ;
-  }
+    font-size: 2.5rem;   
+}
+#kid-img{
+    width: 25rem;
+}
+#kid-hclr{
+     color: hsla(38,99%,51%,1);
+}
+
+#kid-hclr2{
+    color: rgb(1, 172, 253); ;
+}
   .kid-btn{
       border-radius: 0.5rem;
       background:  rgb(17, 17, 17);;
@@ -83,23 +84,24 @@
   }
   
   .section1{
-      background-image: url(/assets/bg.png);
+      background-image: url(./assets/bg.png);
       display: flex;
       flex-direction: column;
       align-items: center;
   }
   #card{
-      display: flex;
+       display: flex;
       gap: 1.25rem;
-      margin: 3.125rem 6.25rem ;
+      /* margin: 3.125rem 6.25rem ;  */
   }
   #card1{
-      padding: 2.5rem 1.875rem;
+      padding: 2.5rem 1.875rem; */
      text-align: center;
       box-sizing: border-box;
-     border: 0.94px solid rgb(222, 245, 255);
+     border: 2px solid red;
+      /* border: 0.94px solid rgb(222, 245, 255); */
      border-radius: 1.17875rem;
-  
+   
      box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
      background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
   }
@@ -156,7 +158,7 @@
   }
   .section2{
       
-      background:   url(/assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+      background:   url(./assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   }
   .sect-again{
      margin-left: 32.5rem;
@@ -259,18 +261,18 @@
       display: flex;
       flex-direction: column;
       margin: 6.25rem 5rem; 
-  }
+  }                
   .ankor>div>p{
       color: white;
       width: 18.75rem;
       margin-top: 2,5rem;
   }
   .ankor1{
-      display: flex;
-      flex-direction: column;
-      gap: 1.5625rem;
-      margin-top: 8.125rem;
-  }
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    margin-top: 8.125rem;
+}
   .ankor1>div>a{
       text-decoration: none;
       color: white;
@@ -283,8 +285,8 @@
       margin: 6.25rem;
   }
   .ankor2>h2{
-      color: white;
-  }
+    color: white;
+}
   
   
   @media screen and (max-width: 576px) {
@@ -304,16 +306,21 @@
       } 
       #kid-img,
       #kid-paragraph{
-        width: 561px;
-        margin-left: -30px;
+        width: 100%;
+        /* margin-left: -30px; */
       }
 
-      card{
-        width: 561px;
-        margin-left: -30px;
+      #card{
+        width: 100%;
+        border: 2px solid red;
+        /* margin-left: -30px; */
+      }
+      .card1{
+        font-size: 1rem;
       }
       
   .kid,
+
   .section1{
     width:100%;
     height: auto;
@@ -334,10 +341,19 @@
   .exmpl2{
     
   }
+  .cont{
+    width: ;
+    height: 430px;
+    
+  }
 
   .ankor,
   .ankor2{
     margin-left: -1px;
+  }
+  #footer{
+    width: 35.6rem;
+    padding: 2.5rem;
   }
 
   }
