@@ -6,20 +6,25 @@
 
   }
   
-  .nav{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin-top: 1rem;
-  
-  }
-  
-  .nav1{
-      display: flex;
-  }
-  #scl{margin-left: 0.5rem;}
-  
-  .nav-link1{
+ 
+  .nav-width{
+    max-width: 90%;
+    margin: 1rem auto;
+    display: flex;
+     /* border: 1px solid;  */
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{display: none;}
+/* #bottom-line{ 
+    border:  1px  solid orange;
+} */
+.img-scl{
+    display: flex;
+    gap: .5rem;
+}
+
+.nav-link1{
     text-decoration: none;
     font-weight: 700;
     margin-right: .5rem;
@@ -43,29 +48,34 @@
       font-weight: 700;
       color: rgb(93, 88, 239);
    }
-  .nav-btn{
-      border-radius: 12px;
-      background: rgb(254, 163, 1);
-      padding: .625rem;
-      width: 130px;
-      border: none;
-      color: white;
-  }
-  
-  .kid{
-      margin: 0.75rem 5.625rem ;
-      display: flex;
-      flex-direction: row-reverse;
-  }
-  #kid-paragraph{
-      margin-top: 2.5rem;
-      margin-left: 1rem;
-  }
-  .empow{
-    font-size: 2.5rem;   
+   #nav-btn{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: .625rem;
+    width: 130px;
+    border: none;
+    color: white;
+}
+.kid{
+    max-width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3.3rem;
+      /* border: 1px solid;   */
+     
+}
+#kid-paragraph{
+    /* border: 1px solid;    */
+    margin-top:  5.5rem;
+
 }
 #kid-img{
-    width: 25rem;
+      width: 100%; */ */
+     border: 1px solid;    */
+}
+.empower{
+    font-size: 2.5rem;   
 }
 #kid-hclr{
      color: hsla(38,99%,51%,1);
@@ -74,286 +84,289 @@
 #kid-hclr2{
     color: rgb(1, 172, 253); ;
 }
-  .kid-btn{
-      border-radius: 0.5rem;
-      background:  rgb(17, 17, 17);;
-      padding: 0.625rem;
-      width: 8.125rem;
-      border: none;
-      color: white;
-  }
-  
-  .section1{
-      background-image: url(./assets/bg.png);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-  #card{
-       display: flex;
-      gap: 1.25rem;
-      /* margin: 3.125rem 6.25rem ;  */
-  }
-  #card1{
-      padding: 2.5rem 1.875rem; */
-     text-align: center;
-      box-sizing: border-box;
-     border: 2px solid red;
-      /* border: 0.94px solid rgb(222, 245, 255); */
-     border-radius: 1.17875rem;
-   
-     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-  }
-  #card2{
-      padding:40px 30px;
-     text-align: center;
-     box-sizing: border-box;
-  border: 0.94px solid rgb(255, 244, 220);
-  border-radius: 1.17875rem;
-  
-  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-  background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-  }
-  #card3{
-      padding:40px 30px;
-     text-align: center;
-     box-sizing: border-box;
-     border: 0.94px solid rgb(242, 232, 255);
-     border-radius: 1.17875rem;
-     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-  }
-  #c-btn1{
-      color: rgb(100, 200, 255) ;
-      border: none;
-  background-color: transparent;
-  }
-  #c-btn2{
-      color: rgb(240, 170, 0) ;
-      border: none;
-  background-color: transparent;
-  }
-  #c-btn3{
-      color: rgb(135, 0, 255) ;
-      border: none;
-  background-color: transparent;
-  }
-  .np-btn{
-      color: white;
-      border: none ; 
-      background: rgb(254, 163, 1);
-      border-radius: 1.25rem;
-      width: 2.5rem;
-      height: 2.5rem;
-      font-size: 1rem;
-      font-weight: 900;
-  }
-  .np-btn{
-      margin-bottom: 1rem;
-  }
-  .va-btn{
-      margin-bottom: 4.375rem;
-      margin-left: 34.375rem;
-  }
-  .section2{
-      
-      background:   url(./assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-  }
-  .sect-again{
-     margin-left: 32.5rem;
-  }
-  
-  .cont{
-      display: flex;
-      gap: 0.8rem;
-  
-      margin:  5rem 5.875rem ;
-  }
-  .square-clg{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); 
-      grid-template-rows: repeat(2, 1fr);
-      gap: .75rem;
-      /* margin-right: 15px; */
-  }
-  .exmpl1{
-      /* margin-left: 15px; */
-      border-radius: .75rem;
-      background: rgb(255, 255, 255);
-      width: 33.75rem;
-      
-  
-  }
-  .img1{
-      width: 100%;
-      height: 50%;
-      border-radius: 12px 12px 0px 0px;
-  }
-  .exmpl1 > h3{
-      margin: 2.5rem;
-  }
-  .exmpl1 > p{
-      margin: 2.5rem;
-      font-weight: 500;
-      font-size: 0.9rem;
-  }
-    .exmpl1 > button{
-      position:;
-      margin-top: -10px;
-  } 
-  .exmpl1>button{
-      border-radius: 35px;
-      background: rgb(60, 216, 232);
-      border: none;
-      color: white;
-      padding: .3125rem .3125rem;
-      height: 1.875rem;
-      position: absolute;
-      margin-top: 18.44rem;
-      margin-left: -25rem;
-  }
-  .exmpl2{
-      border-radius: .75rem;
-      background: rgb(255, 255, 255);
-      width: 18.125rem;
-      height: 18.875rem;
-  }
-  .exmpl2-img{
-      width: 100%;
-      height: 55%;
-      border-radius: 12px 12px 0px 0px;
-  }
-  .exmpl2-h{
-      margin: 1.875rem;
-  }
-  .exmpl2>button{
-      border-radius: 35px;
-      background: rgb(149, 178, 38);
-      border: none;
-      color: white;
-      padding: .3125rem .3125rem;
-      height: 1.875rem;
-      position: absolute;
-      margin-top: 9.375rem;
-      margin-left: -15.625rem;
-  }
-  #blue-btn{
-      background: rgb(93, 88, 240);
-  }
-  
-  #footer{
-      background: rgb(1, 172, 253);
-      display: flex;
-      justify-content: space-between;
-  }
-  .logo-kid{
-      display: flex;
-  }
-  .logo-kid>img{
-      width: 6.25rem;
-      height: 100%;
-  }
-  .logo-kid>h1{
-      color: white;
-  }
-  .ankor{
-      display: flex;
-      flex-direction: column;
-      margin: 6.25rem 5rem; 
-  }                
-  .ankor>div>p{
-      color: white;
-      width: 18.75rem;
-      margin-top: 2,5rem;
-  }
-  .ankor1{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5625rem;
-    margin-top: 8.125rem;
-}
-  .ankor1>div>a{
-      text-decoration: none;
-      color: white;
-      font-weight: 500;
-  }
-  #weight{
-      font-weight: 700;
-  }
-  .ankor2{
-      margin: 6.25rem;
-  }
-  .ankor2>h2{
+.kid-btn{
+    border-radius: 0.5rem;
+    background:  rgb(17, 17, 17);;
+    padding: 0.625rem;
+    width: 8.125rem;
+    border: none;
     color: white;
 }
-  
-  
-  @media screen and (max-width: 576px) {
-      #scl, 
-      .nav-link,
-      .nav-btn,
-      .exmpl1,
-      .np-btn1{
-          display: none;
-      }
-      
-      .kid,
-      #card,
-      #footer{
+.section-sizings{
+    max-width: 90%;
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#cards{
+    margin: 2rem 0rem 4rem 0rem;
+    display: flex;
+   gap: 1.25rem;
+    /* border: 1px solid;  */
+    
+}
+#card1{
+    padding: 2.5rem 1.875rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    /* border: 2px solid red; */
+    border: 0.94px solid rgb(222, 245, 255); */
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#card2{
+    padding: 2.5rem 1.875rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#card3{
+    padding: 2.5rem 1.875rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#card1>p{
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+#card2>p{
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+#card3>p{
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+#c-btn1{
+    color: rgb(100, 200, 255) ;
+    border: none;
+background-color: transparent;
+}
+#c-btn2{
+    color: rgb(240, 170, 0) ;
+    border: none;
+background-color: transparent;
+}
+#c-btn3{
+    color: rgb(135, 0, 255) ;
+    border: none;
+background-color: transparent;
+}
+.np-btn{
+    color: white;
+    border: none ; 
+    background: rgb(254, 163, 1);
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+#gradient{
+    background:linear-gradient(0.00deg, rgba(248, 158, 2, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.cont{
+    display: flex;
+    /* border: 2px solid; */
+    gap: 1rem;
+      margin: 5rem 0rem; 
+}
+.img1{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.column1{
+    border-radius: .75rem;
+    background: rgb(255, 255, 255);
+}
+.column1>p{
+    color: rgb(102, 102, 102);
+    /* border: 1px solid; */
+   margin: 2rem;
+}
+.column1>h2{
+    margin: 2.5rem;
+    /* border: 1px solid; */
+}
+.column1>button{
+   position: absolute;
+   margin-top: 25rem;
+   margin-left: -38rem;
+   border-radius: 35px;
+   background: rgb(60, 216, 232);
+   border: none;
+   color: white;
+   padding: .3125rem .3125rem;
+   height: 1.875rem;
+}
+
+.exmpl2{
+    border-radius: .75rem;
+    background: white;
+    /* width: 18.125rem; */
+    /* border: 1px solid red; */
+    height: 17.8rem; */
+    
+    
+}
+.exmpl2-img{
+     width: 100%; 
+      /* height: 100%;  */
+    border-radius: 12px 12px 0px 0px;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.exmpl2-h{
+    margin: 1.875rem;
+}
+
+.exmpl2>button{
+    border-radius: 35px;
+    background: rgb(149, 178, 38);
+    border: none;
+    color: white;
+    padding: .3125rem .3125rem;
+    height: 1.8rem;
+    position: absolute;
+    margin-top: 7.4rem;
+    margin-left: -11.5rem;
+}
+#blue-btn{
+    background: rgb(93, 88, 240);
+}
+
+.va-btn{
+    margin-bottom: 3rem;
+}
+.stories{
+    margin-top: 5rem;
+}
+
+
+
+
+#footer{
+    background: rgb(1, 172, 253);
+    padding: 5rem 0rem;
+}
+.inside-foot{
+    max-width: 90%;
+    margin: 1rem auto ;
+    display: flex;
+    justify-content: space-between;
+    /* flex-grow: 1; */
+    /* border: 2px solid ; */
+}
+.ankor{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid ; */
+} 
+.logo-kid{
+    display: flex;
+}
+.logo-kid>img{
+    width: 6.25rem;
+    height: 100%;
+}
+.logo-kid>h1{
+    color: white;
+}
+.ankor>div>p{
+    color: white;
+     width: 20rem; */
+     /*margin-top: 2.5rem; */
+}
+.ankor1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem; 
+    /* margin-top: 8.125rem; */
+    /* border: 1px solid; */
+}
+.ankor1>div>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+#weight{
+    font-weight: 700;
+}
+.ankor2>h2{
+    color: white;
+}
+
+
+button:hover {
+    background-color: rgb(78, 176, 241);
+    color: rgb(90, 17, 4);
+    cursor: pointer;
+  }
+
+
+
+@media screen and (max-width: 576px) {
+
+    #scl, 
+    .nav-link,
+    #nav-btn,
+    .np-btn1,
+    .column1{
+        display: none;
+    }
+    #icon{
+        display: inline;
+    }
+    .kid{
         display: flex;
         flex-direction: column;
-      } 
-      #kid-img,
-      #kid-paragraph{
+        align-items: center;
+        gap: 0rem;
+    }
+    #kid-img,{
         width: 100%;
-        /* margin-left: -30px; */
+    }
+    #kid-paragraph{
+        margin-top: 0rem;
+        text-align: center;
+    }
+    #cards,
+    .inside-foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s1-headding{
+        font-size: 2.3rem;
+    }
+   .cont{
+     
+   }
+
+    .inside-foot{
+        align-items: normal;
+        gap: 2rem;
+    }
+    #bottom-line{
+        border-bottom: 2px solid orange;
       }
-
-      #card{
-        width: 100%;
-        border: 2px solid red;
-        /* margin-left: -30px; */
-      }
-      .card1{
-        font-size: 1rem;
-      }
-      
-  .kid,
-
-  .section1{
-    width:100%;
-    height: auto;
-    text-align: center;  
-  }
-  .head1{
-    margin-right: -300px;
-    width: 561px;
-    margin-top: 80px;
-  }
-  #card1, #card2 ,#card3{
-    margin-right: -300px;
-    width: 561px;
-  }
-  .square-clg{
-    
-  }
-  .exmpl2{
-    
-  }
-  .cont{
-    width: ;
-    height: 430px;
-    
-  }
-
-  .ankor,
-  .ankor2{
-    margin-left: -1px;
-  }
-  #footer{
-    width: 35.6rem;
-    padding: 2.5rem;
-  }
-
-  }
+}
