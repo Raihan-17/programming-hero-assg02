@@ -198,10 +198,10 @@
       font-weight: 500;
       font-size: 0.9rem;
   }
-  /* .exmpl1 > button{
+    .exmpl1 > button{
       position:;
       margin-top: -10px;
-  } */
+  } 
   .exmpl1>button{
       border-radius: 35px;
       background: rgb(60, 216, 232);
